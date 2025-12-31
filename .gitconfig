@@ -1,7 +1,7 @@
 [user]
-        # Update these with your work email and name on work laptop
-        email = yjtan.dev@gmail.com
-        name = Yi Jia Tan
+        # Add your email and name
+        # email = your.email@example.com
+        # name = Your Name
 [core]
         autocrlf = input
 [filter "lfs"]
