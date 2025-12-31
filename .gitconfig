@@ -1,0 +1,11 @@
+[user]
+        # Update these with your work email and name on work laptop
+        email = yjtan.dev@gmail.com
+        name = Yi Jia Tan
+[core]
+        autocrlf = input
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true

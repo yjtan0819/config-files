@@ -1,0 +1,73 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editor.enablePreview": false,
+  "jupyter.askForKernelRestart": false,
+  "files.autoSave": "afterDelay",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "code-runner.runInTerminal": true,
+  "editor.fontSize": 16,
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "settingsSync.ignoredSettings": ["-python.defaultInterpreterPath"],
+  "remote.SSH.remotePlatform": {
+    "mimi.cs.mcgill.ca": "linux",
+    "sandbox.8scwhl.csb": "linux",
+    "sandbox.f5j7xm.csb": "linux"
+  },
+  "jupyter.interactiveWindow.creationMode": "perFile",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "yaml.customTags": [],
+  "yaml.schemas": {
+    "kubernetes": "*.yaml"
+  },
+  "redhat.telemetry.enabled": false,
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "docker.languageserver.formatter.ignoreMultilineInstructions": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "{git,gitlens}/**/*.{md,csv}": "default"
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnType": true,
+  "editor.minimap.enabled": false,
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-mac": "/Users/yjtan0819/.vs-kubernetes/tools/helm/darwin-arm64/helm"
+  },
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "vscode-office.editorTheme": "Github Dark",
+  "go.toolsManagement.autoUpdate": true,
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.petSize": "large",
+  "vscode-pets.theme": "beach",
+  "vsicons.dontShowNewVersionMessage": true,
+  "github.copilot.nextEditSuggestions.enabled": true
+}
